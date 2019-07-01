@@ -2,11 +2,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-/* .user-view .background img {
-    background-size: cover;
-    background-position: center;
-} */
-
 .bold {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -113,6 +108,7 @@ footer {
     margin-top: 50px;
 }
 
+/* mobile */
 @media only screen and (max-width: 600px) {
     header {
         min-height: 500px;
@@ -122,15 +118,16 @@ footer {
         transform: translateX(-120px);
     }
     .title h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .title p {
         color: #ffffff;
-        font-size: 18px;
+        font-size: 14px;
         animation-delay: 1000ms;
+        width: 90%;
     }
     .project-name {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .heading {
         font-size: 2rem;
@@ -139,15 +136,15 @@ footer {
         max-height: 250px;
     }
     #tech-skills {
-        flex-wrap: wrap;
+        font-size: 3rem;
     }
     #tech-skills li i {
-        display: inline-block;
-        font-size: 3rem;
+        display: inline-block;   
+        margin-top: 30px;
     }
 }
 
-/* @media screen and (min-width: 768px) */
+/* tablet */
 @media only screen and (max-width: 992px) {
     nav .brand-logo {
         transform: translateX(-100px);
@@ -156,10 +153,10 @@ footer {
         transform: translate(30px, 200px);
     }
     .heading {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .project-name {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .parallax-container {
         max-height: 350px;
